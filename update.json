@@ -5,7 +5,7 @@
   "Mandatory": false,
   "PackageUrl": "https://raw.githubusercontent.com/excelsius-medical/EM/main/EMTopoLinkApp_V2.0.2.etpkg",
   "Sha256": "F8E9CB7110C4C0AAB4A4AFE658D6790A04E7A2E29708672BE1FD018937D7C535",
-  "ReleaseDate": "2026-05-30T00:00:00+08:00",
+  "ReleaseDate": "2026-06-02T16:00:00+08:00",
   "ReleaseNotes": [
     "Updated the release package workflow to use encrypted .etpkg update packages together with matching SHA256 verification.",
     "Improved update manifest generation so release metadata can be produced directly from encrypted packages during publishing.",
