@@ -1,0 +1,16 @@
+{
+  "Product": "EMTopoLinkApp",
+  "LatestVersion": "V2.0.1",
+  "MinimumSupportedVersion": "V1.0.0",
+  "Mandatory": false,
+  "PackageUrl": "http://192.168.0.32:3000/RDTest/TopoLink/raw/branch/main/EMTopoLinkApp_V2.0.1.etpkg",
+  "Sha256": "3E4797100A1A4D559DA08D606C441BF07B6CD0192CB37509729F34FB39B550DE",
+  "ReleaseDate": "2026-05-30T00:00:00+08:00",
+  "ReleaseNotes": [
+    "Updated the Treatment Process workflow with a clearer step-by-step experience from PREOP review through target planning, ablation planning, and calculation summary.",
+    "Improved the display of pachymetry and residual-thickness information so important values are easier to review during planning.",
+    "Added clearer support for flap or transepithelial thickness adjustment during treatment planning.",
+    "Improved automatic import and restore of treatment-session information to reduce manual re-entry and make interrupted work easier to continue.",
+    "Refined export-related behavior and overall workflow messaging for a smoother day-to-day user experience."
+  ]
+}
