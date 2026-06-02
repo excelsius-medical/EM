@@ -4,7 +4,7 @@
   "MinimumSupportedVersion": "V1.0.0",
   "Mandatory": false,
   "PackageUrl": "https://raw.githubusercontent.com/excelsius-medical/EM/main/EMTopoLinkApp_V2.0.1.etpkg",
-  "Sha256": "C398DCDE4536328980DE676EC1E99FF1CDDED382CC250B5541B745CBECEF9344",
+  "Sha256": "A931EFC9CDAFD42191E38A452480F264F70DCA6CCCAAFA3080180DF31E533ECE",
   "ReleaseDate": "2026-05-30T00:00:00+08:00",
   "ReleaseNotes": [
     "Updated the Treatment Process workflow with a clearer step-by-step experience from PREOP review through target planning, ablation planning, and calculation summary.",
