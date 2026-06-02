@@ -4,13 +4,13 @@
   "MinimumSupportedVersion": "V1.0.0",
   "Mandatory": false,
   "PackageUrl": "https://raw.githubusercontent.com/excelsius-medical/EM/main/EMTopoLinkApp_V2.0.2.etpkg",
-  "Sha256": "55446364BA0BBC7C7C76DBA1B9F22C1C93665DD1BB762A335D52D771F9817595",
+  "Sha256": "F8E9CB7110C4C0AAB4A4AFE658D6790A04E7A2E29708672BE1FD018937D7C535",
   "ReleaseDate": "2026-05-30T00:00:00+08:00",
   "ReleaseNotes": [
-    "Updated the Treatment Process workflow with a clearer step-by-step experience from PREOP review through target planning, ablation planning, and calculation summary.",
-    "Improved the display of pachymetry and residual-thickness information so important values are easier to review during planning.",
-    "Added clearer support for flap or transepithelial thickness adjustment during treatment planning.",
-    "Improved automatic import and restore of treatment-session information to reduce manual re-entry and make interrupted work easier to continue.",
-    "Refined export-related behavior and overall workflow messaging for a smoother day-to-day user experience."
+    "Updated the release package workflow to use encrypted .etpkg update packages together with matching SHA256 verification.",
+    "Improved update manifest generation so release metadata can be produced directly from encrypted packages during publishing.",
+    "Fixed updater key propagation so downloaded encrypted packages can be decrypted and installed correctly after verification.",
+    "Updated the default update source configuration to use the GitHub repository release channel.",
+    "Improved release tooling and manifest utility behavior for package selection, manual path entry, and update package publishing."
   ]
 }
