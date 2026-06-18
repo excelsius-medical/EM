@@ -1,22 +1,15 @@
 {
   "Product": "EMTopoLinkApp",
-  "LatestVersion": "V2.0.3",
+  "LatestVersion": "V2.0.4",
   "MinimumSupportedVersion": "V1.0.0",
   "Mandatory": false,
-  "PackageUrl": "https://raw.githubusercontent.com/excelsius-medical/EM/main/EMTopoLinkApp_V2.0.3.etpkg",
-  "Sha256": "5236C2F5C9A9A9BDDD28F35713212016FE3171EB9F10DF3F76115BF578DC7EE6",
-  "ReleaseDate": "2026-06-12T00:00:00+08:00",
+  "PackageUrl": "https://raw.githubusercontent.com/excelsius-medical/EM/main/EMTopoLinkApp_V2.0.4.etpkg",
+  "Sha256": "509D24EC45B03DCD0638702C188BCD113E5345E09FBF4D024F943BCE545A0F27",
+  "ReleaseDate": "2026-06-18T00:00:00+08:00",
   "ReleaseNotes": [
-    "Interactive topography maps: PREOP, Simulated POSTOP and Ablation Profile are now shown as live maps. Move the mouse over any point to read its exact value and position.",
-    "Map overlays on demand: right-click a map to turn helpful guides on or off, including the maximum-ablation zone ring, reference rings and contour lines.",
-    "Redesigned session report: the report window now offers a clear Report view (interactive maps, key parameters and the selectable calculation protocol) and a PNG view of the printable page, with a tidier, easier-to-read information layout.",
-    "Export to PDF: save any session report as a PDF document with one click.",
-    "Reliable printing: Print Report now prints the same report as the PDF and works with any printer, without depending on which PDF application is installed on the computer.",
-    "Consistent reports from the database: reports opened from the patient database now match the original calculation report, including the interactive maps.",
-    "Ablation depth warning shows the live, interactive ablation map (with the maximum-ablation ring and label) so the result is easier to review before continuing.",
-    "Audit trail: the application now keeps a record of key actions — such as loading data, accepting an ablation plan, and opening, printing or exporting reports — together with the parameters used, and includes a built-in viewer with filtering and search to support traceability and review.",
-    "Engineering verification tool: a new Eye Map A/B check (engineering mode) confirms the interactive map matches the validated reference image and saves the result.",
-    "Refreshed interface: dialogs, buttons and fonts across the application have been updated for a cleaner, more consistent look.",
-    "Update improvements (carried forward): more reliable downloads and installation, stronger verification of update files, smoother handling of secured update packages, and an updated default online update source."
+    "Astigmatism axis overlay: the topography maps can now show the corneal astigmatism axes (steep in blue, flat in red) for the 3 mm, 3-5 mm and 5 mm zones. It is off by default — right-click a map and choose \"Astigmatism axis\" to turn it on.",
+    "Clearer keratometry readout: reports and the Target step now show the mean K (Km) together with the flat (K1) and steep (K2) values and their axes, instead of a single \"Kmean\" figure that could be misleading on eyes with high astigmatism.",
+    "Mode-aware thickness label: the manual thickness adjustment is now labelled to match the treatment mode — \"Flap Thickness\" (LASIK), \"PRK Adjustment\" (PRK) or \"Transepi Ablation\" (TransEpi) — consistently in the PREOP review, the ablation result panel and the report.",
+    "Reliability and quality improvements: internal fixes to the interactive topography display and a larger automated test suite for more dependable results."
   ]
 }
