@@ -1,15 +1,14 @@
 {
   "Product": "EMTopoLinkApp",
-  "LatestVersion": "V2.0.6",
+  "LatestVersion": "V2.0.7",
   "MinimumSupportedVersion": "V1.0.0",
   "Mandatory": false,
-  "PackageUrl": "https://raw.githubusercontent.com/excelsius-medical/EM/main/EMTopoLinkApp_V2.0.6.etpkg",
-  "Sha256": "4E2E9572851BD2643C0969C4CCBE5F9C8CCA6D0808801508B5EFE64710E9D046",
-  "ReleaseDate": "2026-06-23T00:00:00+08:00",
+  "PackageUrl": "https://raw.githubusercontent.com/excelsius-medical/EM/main/EMTopoLinkApp_V2.0.7.etpkg",
+  "Sha256": "A53BF0B18560CB224EC7B58FC72E588D16BD6CE10413D3F6D83DF7C102FD4E18",
+  "ReleaseDate": "2026-06-24T00:00:00+08:00",
   "ReleaseNotes": [
-    "Epi-Link is now hidden from the normal clinical workflow by default. The Epi-Link review toggle, the epithelial-thickness view, the Epi-Link preview step and the topography \"Epi.\" column no longer appear unless the feature is enabled. A switch in Engineering Mode turns it on, and the choice is remembered between sessions.",
-    "Restricted audit-trail access: the audit log can no longer be opened from the database screen; it is now available only from Engineering Mode.",
-    "Corrected thickness label on the Calculation Summary: the manual thickness adjustment is now labelled to match the treatment mode — \"Flap Thickness\" (LASIK), \"PRK Adjustment\" (PRK) or \"Transepi Ablation\" (TransEpi) — consistent with the ablation result panel and the report.",
-    "Reliability and internal improvements to treatment planning."
+    "The Session Report now groups the report information into clear treatment-flow sections — Patient / Exam, PREOP Review, Target, Ablation Plan, and Save & Versions — so it is easier to read. The on-screen report, the exported PDF and the printout all show the same layout.",
+    "Safer software updates: if another TopoLinkApp window is open, the update now stops and asks you to close it first; and if an update cannot finish, the previous version is restored automatically so the application is never left in a broken state.",
+    "Updated user manual (English and Traditional Chinese), including the Exam Review import workflow, session-file export to USB, and first-time setup of the computer validation service."
   ]
 }
