@@ -1,14 +1,14 @@
 {
   "Product": "EMTopoLinkApp",
-  "LatestVersion": "V2.0.7",
+  "LatestVersion": "V2.0.8",
   "MinimumSupportedVersion": "V1.0.0",
   "Mandatory": false,
-  "PackageUrl": "https://raw.githubusercontent.com/excelsius-medical/EM/main/EMTopoLinkApp_V2.0.7.etpkg",
-  "Sha256": "A53BF0B18560CB224EC7B58FC72E588D16BD6CE10413D3F6D83DF7C102FD4E18",
-  "ReleaseDate": "2026-06-24T00:00:00+08:00",
+  "PackageUrl": "https://raw.githubusercontent.com/excelsius-medical/EM/main/EMTopoLinkApp_V2.0.8.etpkg",
+  "Sha256": "812953F62702607DA160BE7AFFABAFD4496590A56630EF72D855261BFDF99A46",
+  "ReleaseDate": "2026-06-30T00:00:00+08:00",
   "ReleaseNotes": [
-    "The Session Report now groups the report information into clear treatment-flow sections — Patient / Exam, PREOP Review, Target, Ablation Plan, and Save & Versions — so it is easier to read. The on-screen report, the exported PDF and the printout all show the same layout.",
-    "Safer software updates: if another TopoLinkApp window is open, the update now stops and asks you to close it first; and if an update cannot finish, the previous version is restored automatically so the application is never left in a broken state.",
-    "Updated user manual (English and Traditional Chinese), including the Exam Review import workflow, session-file export to USB, and first-time setup of the computer validation service."
+    "Target Topography step: in Rx mode the Target K-Reading is now shown as a computed, read-only value and no longer overwrites the Flat/Steep K-Reading inputs used in K-Values mode. K-Reading fields stay blank until a target has been calculated, and the unused \"Detail\" button has been removed.",
+    "Session Report: the \"Calculation Protocol\" text section has been removed. The on-screen report, the exported PDF and the printout now show only the figures and summary information, for a cleaner and more focused report.",
+    "Engineering Mode — Epi-Link preview: the 3D epithelial-thickness surface now renders smoothly without the previous jagged edge artefacts, uses the correct colour table, and the Input and Abrased curvature maps share a single colour scale so the preview matches the reference rendering."
   ]
 }
