@@ -7,8 +7,6 @@
   "Sha256": "812953F62702607DA160BE7AFFABAFD4496590A56630EF72D855261BFDF99A46",
   "ReleaseDate": "2026-06-30T00:00:00+08:00",
   "ReleaseNotes": [
-    "Target Topography step: in Rx mode the Target K-Reading is now shown as a computed, read-only value and no longer overwrites the Flat/Steep K-Reading inputs used in K-Values mode. K-Reading fields stay blank until a target has been calculated, and the unused \"Detail\" button has been removed.",
-    "Session Report: the \"Calculation Protocol\" text section has been removed. The on-screen report, the exported PDF and the printout now show only the figures and summary information, for a cleaner and more focused report.",
-    "Engineering Mode — Epi-Link preview: the 3D epithelial-thickness surface now renders smoothly without the previous jagged edge artefacts, uses the correct colour table, and the Input and Abrased curvature maps share a single colour scale so the preview matches the reference rendering."
-  ]
+    "Target Topography step: in Rx mode the Target K-Reading is now shown as a computed, read-only value and no longer overwrites the Flat/Steep K-Reading inputs used in K-Values mode. K-Reading fields stay blank until a target has been calculated, and the unused \"Detail\" button has been removed."
+    ]
 }
