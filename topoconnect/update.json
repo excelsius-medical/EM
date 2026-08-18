@@ -8,7 +8,8 @@
   "Sha256": "447CB50A90BF0BC5E1BD7F86366623FC187AB385C69408FB3F2FD497B8F744BA",
   "ReleaseDate": "2026-06-30T00:00:00+08:00",
   "ReleaseNotes": [
-    "Target Topography: the Rx Target K-Reading is now shown as a read-only calculated value, and the unused \"Detail\" button has been removed.",
-    "Session Report: the Calculation Protocol section has been removed, so the report (on-screen, PDF and printout) is cleaner."
+    "Data Import Workflow Improvements",
+    "Reporting System Enhancements",
+    "User Interface Improvements"
   ]
 }
